@@ -17,29 +17,29 @@ var highScoresListJSON = localStorage.getItem("Scores");
 var highScoresList = JSON.parse(localStorage.getItem("Scores"));
 var myQuestions = [
 	{
-		question: "1. What is 10/2?",
-		alternatives: ["A1", "A2", "A3", "A4"],
-		correctAnswer: 0
+		question: "1. Commonly used data types DO NOT include:",
+		alternatives: ["strings", "booleans", "alerts", "numbers"],
+		correctAnswer: 2
 	},
 	{
-		question: "2. What is 10/2?",
-		alternatives: ["A1", "A2", "A3", "A4"],
-		correctAnswer: 0
+		question: "2. The condition in an if / else statement is enclosed with _________?",
+		alternatives: ["quotes", "curly brackets", "parenthesis", "square brackets"],
+		correctAnswer: 1
 	},
     {
-		question: "3. What is 10/2?",
-		alternatives: ["A1", "A2", "A3", "A4"],
-		correctAnswer: 0
+		question: "3. Arrays in JavaScript can be used to store _______",
+		alternatives: ["numbers and strings", "other arrays", "booleans", "all of the above"],
+		correctAnswer: 3
 	},
     {
-		question: "4. What is 10/2?",
-		alternatives: ["A1", "A2", "A3", "A4"],
-		correctAnswer: 0
+		question: "4. String values must be enclosed with _________ when being assigned to variables",
+		alternatives: ["commas", "curly brackets", "quotes", "parenthesis"],
+		correctAnswer: 2
 	},
     {
-		question: "5. What is 10/2?",
-		alternatives: ["A1", "A2", "A3", "A4"],
-		correctAnswer: 0
+		question: "5. A very useful tool used during development and debugging for printing content to the debugger is:",
+		alternatives: ["JavaScript", "terminal/bash", "for loops", "console.log"],
+		correctAnswer: 3
 	}
 ];
 
