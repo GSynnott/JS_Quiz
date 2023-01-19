@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Javascript Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
-    
+    <header>
+        <button id="HSButton">View Highscores</button>
+        <p id="countdown"></p>
+    </header>
+    <h1 id="header-title">Javascript Quiz</h1>
+    <button id="start-Quiz">Start Quiz</button>
+    <div id="QA">
+        <ul class="Question-Answers">
+            <div id="title">Question</div>
+            <button class="alternative">Answer 1</button>
+            <button class="alternative">Answer 2</button>
+            <button class="alternative">Answer 3</button>
+            <button class="alternative">Answer 4</button>
+        </ul>
+
+    </div>
+    <div id="Enter-Score">
+        <ul class="Question-Answers">
+            <div id="title">Enter Name</div>
+            <input type="text" id="High-Score-Name" name="HSName">
+            <div id="Score-Listing"></div>
+            <button id="Enter-Score-Button"></button>
+        </ul>
+    </div>
+    <div id="display-High-Scores">
+        <ol class="Question-Answers">
+        </ol>
+    </div>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
